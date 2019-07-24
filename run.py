@@ -13,21 +13,6 @@ import subprocess
 from shutil import disk_usage, rmtree
 from base64 import b64decode
 
-client = discord.Client()
-
-@client.event
-ayanc def on_ready()
-    print("login")
-    print(client.user.name)
-    print(client.user.id)
-    print("------------------)
-    await client.change_presence(game=discord.Game(name='', type))
-
-@client.event
-async def on_message(message):
-    if message.content.startswith("hi)
-        await client.send_message(message.channel, "HI")
-
 try:
     import pathlib
     import importlib.util
