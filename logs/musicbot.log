@@ -1,0 +1,50 @@
+[38.895845413] 2019-07-24 19:04:18,659 - INFO - launcher: Starting sanity checks
+[38.895845413] 2019-07-24 19:04:18,659 - INFO - launcher: Checking for Python 3.5+
+[39.893627167] 2019-07-24 19:04:18,660 - INFO - launcher: Checking console encoding
+[39.893627167] 2019-07-24 19:04:18,660 - INFO - launcher: Setting console encoding to UTF-8
+[39.893627167] 2019-07-24 19:04:18,660 - INFO - launcher: Ensuring we're in the right environment
+[41.895627975] 2019-07-24 19:04:18,662 - INFO - launcher: Adding local bins/ folder to path
+[1224.722623825] 2019-07-24 19:04:19,845 - INFO - launcher: Required checks passed.
+[1225.723743439] 2019-07-24 19:04:19,846 - INFO - launcher: Optional checks passed.
+[1225.723743439] 2019-07-24 19:04:19,846 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[2.1253130435943604] 2019-07-24 19:04:20,745 - WARNING - musicbot.config | In config.py::MainThread(9140), line 120 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[2.1253130435943604] 2019-07-24 19:04:20,745 - INFO - musicbot.config | In config.py::MainThread(9140), line 131 in run_checks: Using i18n: config/i18n/en.json
+[2.1273076534271240] 2019-07-24 19:04:20,747 - DEBUG - musicbot.bot | In bot.py::MainThread(9140), line 226 in _setup_logging: Set logging level to INFO
+[2.1293029785156250] 2019-07-24 19:04:20,749 - DEBUG - musicbot.json | In json.py::MainThread(9140), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[2.1731846332550049] 2019-07-24 19:04:20,793 - INFO - musicbot.bot | In bot.py::MainThread(9140), line 91 in __init__: Starting MusicBot release-120519
+[2.1731846332550049] 2019-07-24 19:04:20,793 - INFO - musicbot.bot | In bot.py::MainThread(9140), line 97 in __init__: Loaded autoplaylist with 2531 entries
+[5.3317325115203857] 2019-07-24 19:04:23,952 - DEBUG - musicbot.bot | In bot.py::MainThread(9140), line 949 in on_ready: Connection established, ready to go.
+[5.3317325115203857] 2019-07-24 19:04:23,952 - DEBUG - musicbot.bot | In bot.py::MainThread(9140), line 340 in _cache_app_info: Caching app info
+[5.5481781959533691] 2019-07-24 19:04:24,168 - DEBUG - musicbot.bot | In bot.py::MainThread(9140), line 771 in _scheck_ensure_env: Ensuring data folders exist
+[5.5491795539855957] 2019-07-24 19:04:24,169 - DEBUG - musicbot.bot | In bot.py::MainThread(9140), line 787 in _scheck_server_permissions: Checking server permissions
+[5.5491795539855957] 2019-07-24 19:04:24,169 - DEBUG - musicbot.bot | In bot.py::MainThread(9140), line 791 in _scheck_autoplaylist: Auditing autoplaylist
+[5.5491795539855957] 2019-07-24 19:04:24,169 - DEBUG - musicbot.bot | In bot.py::MainThread(9140), line 795 in _scheck_configs: Validating config
+[5.5491795539855957] 2019-07-24 19:04:24,169 - DEBUG - musicbot.config | In config.py::MainThread(9140), line 228 in async_validate: Validating options...
+[5.5491795539855957] 2019-07-24 19:04:24,169 - DEBUG - musicbot.bot | In bot.py::MainThread(9140), line 798 in _scheck_configs: Validating permissions config
+[5.5491795539855957] 2019-07-24 19:04:24,169 - DEBUG - musicbot.permissions | In permissions.py::MainThread(9140), line 94 in async_validate: Validating permissions...
+[5.5491795539855957] 2019-07-24 19:04:24,169 - INFO - musicbot.bot | In bot.py::MainThread(9140), line 966 in on_ready: Connected: 603414919357923338/김애용#4873
+[5.5501708984375000] 2019-07-24 19:04:24,170 - INFO - musicbot.bot | In bot.py::MainThread(9140), line 974 in on_ready: Owner:     390474098653921281/Answerer#1167
+
+[5.5501708984375000] 2019-07-24 19:04:24,170 - INFO - musicbot.bot | In bot.py::MainThread(9140), line 977 in on_ready: Guild List:
+[5.5511460304260254] 2019-07-24 19:04:24,171 - INFO - musicbot.bot | In bot.py::MainThread(9140), line 981 in on_ready:  - Yog
+[5.5511460304260254] 2019-07-24 19:04:24,171 - INFO - musicbot.bot | In bot.py::MainThread(9140), line 1037 in on_ready: Not bound to any text channels
+[5.5521435737609863] 2019-07-24 19:04:24,172 - INFO - musicbot.bot | In bot.py::MainThread(9140), line 1063 in on_ready: Not autojoining any voice channels
+[5.5531401634216309] 2019-07-24 19:04:24,173 - INFO - musicbot.bot | In bot.py::MainThread(9140), line 270 in _join_startup_channels: Found owner in "Yog"
+[5.5531401634216309] 2019-07-24 19:04:24,173 - INFO - musicbot.bot | In bot.py::MainThread(9140), line 279 in _join_startup_channels: Attempting to join Yog/Yog
+[9.5877835750579834] 2019-07-24 19:04:28,208 - DEBUG - musicbot.bot | In bot.py::MainThread(9140), line 731 in deserialize_queue: Deserializing queue for 424188169328787487
+[9.8550665378570557] 2019-07-24 19:04:28,475 - DEBUG - musicbot.bot | In bot.py::MainThread(9140), line 423 in get_player: Created player via deserialization for guild 424188169328787487 with 1 entries
+[9.8550665378570557] 2019-07-24 19:04:28,475 - INFO - musicbot.bot | In bot.py::MainThread(9140), line 295 in _join_startup_channels: Joined Yog/Yog
+[9.8560645580291748] 2019-07-24 19:04:28,476 - DEBUG - musicbot.entry | In entry.py::MainThread(9140), line 56 in get_ready_future: Created future for audio_cache\youtube-eIob0IuXMn8-X_-.webm
+[9.8560645580291748] 2019-07-24 19:04:28,476 - FFMPEG - musicbot.player | In player.py::MainThread(9140), line 290 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-eIob0IuXMn8-X_-.webm
+[9.8610508441925049] 2019-07-24 19:04:28,481 - DEBUG - musicbot.player | In player.py::MainThread(9140), line 303 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x0576BE70> using <discord.voice_client.VoiceClient object at 0x050BBFB0>
+[9.8620483875274658] 2019-07-24 19:04:28,482 - DEBUG - musicbot.bot | In bot.py::MainThread(9140), line 458 in on_player_play: Running on_player_play
+[9.8620483875274658] 2019-07-24 19:04:28,482 - DEBUG - musicbot.bot | In bot.py::MainThread(9140), line 707 in serialize_queue: Serializing queue for 424188169328787487
+[9.9278717041015625] 2019-07-24 19:04:28,548 - FFMPEG - musicbot.player | In player.py::stderr reader(18344), line 401 in filter_stderr: Data from ffmpeg: b'audio_cache\\youtube-eIob0IuXMn8-X_-.webm: No such file or directory\r\n'
+[9.9318616390228271] 2019-07-24 19:04:28,552 - DEBUG - musicbot.bot | In bot.py::MainThread(9140), line 534 in on_player_finished_playing: Running on_player_finished_playing
+[9.9318616390228271] 2019-07-24 19:04:28,552 - DEBUG - musicbot.bot | In bot.py::MainThread(9140), line 707 in serialize_queue: Serializing queue for 424188169328787487
+[9.9328587055206299] 2019-07-24 19:04:28,553 - DEBUG - musicbot.bot | In bot.py::MainThread(9140), line 530 in on_player_stop: Running on_player_stop
+[205.5308520793914795] 2019-07-24 19:07:44,151 - INFO - musicbot.bot | In bot.py::MainThread(9140), line 2688 in on_message: 390474098653921281/Answerer#1167: ~offline
+[206.711693287] launcher-INFO: All done.
